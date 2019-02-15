@@ -39,7 +39,7 @@ public class BeispielPdfServlet extends HttpServlet {
 
         pdf.title("PDF-Servlet Beispiel")
                 .writtenBy("Verteilte Systeme")
-                .addText("Hallo Welt!").size(36).font(font);
+                .addText("Hallo Patrick!").size(36).font(font);
 
         // Giraffe: https://pixabay.com/en/giraffe-animals-zoo-funny-fauna-901009/
         ServletContext context = this.getServletContext();
